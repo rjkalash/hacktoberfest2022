@@ -1,10 +1,12 @@
+import java.io.*;
 public class Main {
 
   public static void main(String[] args) {
 
     int num = 29;
     boolean flag = false;
-    for (int i = 2; i <= num / 2; ++i) {
+    //this will reduce the time complexity of the solution
+    for (int i = 2; i <= Math.sqrt(num); ++i) {
       // condition for nonprime number
       if (num % i == 0) {
         flag = true;
