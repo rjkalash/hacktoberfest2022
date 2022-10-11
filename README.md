@@ -1,2 +1,3 @@
-# hacktoberfest2022
-Repo Specially for hacktoberfest2022
+# hacktest2022
+Repo Specially for learning
+Provide your code for learning only.
